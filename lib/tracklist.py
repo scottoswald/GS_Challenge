@@ -7,4 +7,7 @@ class Tracklist():
         return self.tracklist
 
     def add_track(self, track):
-        self.tracklist.append(track)
+        if not isinstance(track, str):
+            raise TypeError("Track name must be a string")
+        else:
+            self.tracklist.append(track)
