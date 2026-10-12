@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# pytest cache
+.pytest_cache/
+
+# macOS folder metadata
+.DS_Store
+
+# Editor settings (optional)
+.vscode/
+.idea/
+
+# Secrets (if you ever use them)
+.env
